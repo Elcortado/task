@@ -5,11 +5,78 @@
 }
 #design {
         height: 400px;
-        width: 1300px;
-        padding: 0px 20px 0px 50px;
-}
+        width: 1200px;
+        border: 1px solid black;
+        display: block;
+        margin-left: 50px;
+        object-fit: cover;
+    }
 h1 {
     padding-left: 50px;
     padding-top: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    border: 2px solid black;
+    text-align: center;
+    width: 1200px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+nav{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 55%;
+}
+nav a{
+    text-decoration: none;
+    background-color:blue;
+    color:white;
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.562);
+    }
+.active {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+#logo{
+    height: 150px;
+    position: absolute;
+    top:570px;
+    left: 90px;
+}
+main p{
+    font-size:large;
+    padding-top: 10px;
+    margin-left: 400px;
+}
+
+main h3{
+    padding-top: 10px;
+    margin-left: 400px;
+}
+
+section {
+    margin-top: 20px;
+    height: 90px;
+    width: 900px;
+    margin-left: 300px;
+    font-size:large;
+}
+
+footer p{
+    margin-top: 130px;
+    margin-left: 300px;
+    font-size:large;
 }
