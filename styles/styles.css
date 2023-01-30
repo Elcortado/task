@@ -36,7 +36,7 @@ nav a{
     background-color:blue;
     color:white;
     border: 1px solid black;
-    height: 40px;
+    height: 25px;
     width: 150px;
     display: inline-block;
     text-align: center;
@@ -51,7 +51,7 @@ nav a{
 
 
 #logo{
-    height: 150px;
+    height: 220px;
     position: absolute;
     top:570px;
     left: 90px;
@@ -68,10 +68,10 @@ main h3{
 }
 
 section {
-    margin-top: 20px;
+    margin: 60px;
     height: 90px;
     width: 900px;
-    margin-left: 300px;
+    margin-left: 100px;
     font-size:large;
 }
 
