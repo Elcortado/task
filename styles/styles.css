@@ -29,7 +29,7 @@ nav{
     display: inline-block;
     position: absolute;
     top: 70px;
-    left: 55%;
+    left: 45%;
 }
 nav a{
     text-decoration: none;
@@ -37,7 +37,7 @@ nav a{
     color:white;
     border: 1px solid black;
     height: 25px;
-    width: 150px;
+    width: 120px;
     display: inline-block;
     text-align: center;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.562);
@@ -59,12 +59,12 @@ nav a{
 main p{
     font-size:large;
     padding-top: 10px;
-    margin-left: 400px;
+    margin-left: 50px;
 }
 
 main h3{
     padding-top: 10px;
-    margin-left: 400px;
+    margin-left: 600px;
 }
 
 section {
@@ -79,4 +79,65 @@ footer p{
     margin-top: 130px;
     margin-left: 300px;
     font-size:large;
+}
+.titleinf{
+    text-align: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+table{
+    text-align: justify;
+    padding: 1rem;
+}
+td{
+    padding: 1rem;
+    
+}
+ol{
+    display: flex;    
+    flex-direction: column;
+    align-items: start;
+}
+ul{
+    width: 70%;
+}
+
+.titlesec{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.list{
+    width: 90%;
+    padding: 1.5rem;
+    display: flex;
+    padding-left: 90px;
+    flex-direction: column;
+    align-items: stretch;
+}
+.formCont{
+    text-align: center;
+}
+
+.h5{
+    border-top-style: solid;
+}
+.sublist{
+    
+    margin: 5%;
+}
+.titleinf{
+    margin-left:500px;
+}
+.prime p{
+    margin-left: 600px;
 }
