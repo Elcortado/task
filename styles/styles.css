@@ -64,14 +64,14 @@ main p{
 
 main h3{
     padding-top: 10px;
-    margin-left: 600px;
+    margin-left: 400px;
 }
 
 section {
     margin: 60px;
     height: 90px;
     width: 900px;
-    margin-left: 100px;
+    margin-left: 300px;
     font-size:large;
 }
 
@@ -128,9 +128,7 @@ ul{
     text-align: center;
 }
 
-.h5{
-    border-top-style: solid;
-}
+
 .sublist{
     
     margin: 5%;
@@ -139,5 +137,6 @@ ul{
     margin-left:500px;
 }
 .prime p{
-    margin-left: 600px;
+    margin-left: 400px;
+    margin-top: 20px;
 }
