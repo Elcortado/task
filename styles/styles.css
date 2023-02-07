@@ -25,12 +25,12 @@ h2 {
     
 }
 nav{
+    min-height: 6vh;
     background-color: white;
-    display: inline-block;
-    position: absolute;
-    top: 70px;
-    left: 45%;
-}
+    display: flex;
+    justify-content: flex-end;
+
+    }
 nav a{
     text-decoration: none;
     background-color:blue;
