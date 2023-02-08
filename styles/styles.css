@@ -35,26 +35,27 @@ h2 {
   margin-bottom: 30px;
 }
 nav {
+   width: 587px;
    display: flex;
    flex-wrap: wrap;
    justify-content:flex-start;
    gap: 2px;
    position: absolute;
-   top: 70px;
-   left: 45%;
+   top: 55px;
+   left: 46%;
 }
 nav a {
-  width: 10rem;
+  width: 12rem;
   height:2rem;
   text-decoration: none;
+  font-size: larger;
   align-items: center;
   background-color: blue;
   color: white;
   border: 1px solid black;
-  align-content: stretch;
-  
-  text-align: center;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.562);
+  text-align:center;
+  padding-top: 3px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.562);
 }
 .active {
   background-color: green;
