@@ -145,19 +145,13 @@ ul{
  }
 
  .conjunto{
+  
     gap: 1rem;
-    margin-left: 80px;
+    margin-left: 180px;
     margin-right:70px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
- } 
- iframe {
-    width: 285px;
-    height:285px;
-    border-radius: 10px;
-    border : 2px solid black;
  }
+ 
+
 .sublist {
   margin: 5%;
 }
